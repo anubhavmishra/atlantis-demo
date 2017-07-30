@@ -1,0 +1,4 @@
+.idea/
+.setup_env/
+.terraform/
+terraform.tfstate*
