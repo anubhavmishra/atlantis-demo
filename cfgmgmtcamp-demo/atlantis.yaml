@@ -2,4 +2,4 @@
 extra_arguments:
   - command_name: plan
     arguments:
-    - "-var github_username=\"$ATLANTIS_GITHUB_USERNAME\""
+    - "-var github_username=$ATLANTIS_GITHUB_USERNAME"
