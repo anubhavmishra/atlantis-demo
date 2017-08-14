@@ -1,0 +1,3 @@
+---
+aws_config:
+  assume_role_arn: arn:aws:iam::291007310051:role/atlantis-ec2-assume-role
