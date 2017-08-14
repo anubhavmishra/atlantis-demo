@@ -1,2 +1,5 @@
 ---
-aws_config:
+extra_arguments:
+  - command: plan
+    arguments:
+    - "-tfvars=$ATLANTIS_GITHUB_USERNAME"
