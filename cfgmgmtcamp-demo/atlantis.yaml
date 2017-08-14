@@ -1,5 +1,5 @@
 ---
 extra_arguments:
-  - command: plan
+  - command_name: plan
     arguments:
     - "-var='github_username=$ATLANTIS_GITHUB_USERNAME'"
