@@ -1,0 +1,5 @@
+---
+extra_arguments:
+  - command_name: init
+    arguments:
+    - "-backend-config=env/$ENVIRONMENT.backend.tfvars"
