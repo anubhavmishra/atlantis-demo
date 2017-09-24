@@ -1,2 +1,2 @@
-# cfgmgmtcamp-atlantis-demo
-A simple terraform project for cfgmgmtcamp atlantis demo.
+# atlantis-demo
+A simple terraform project for atlantis demo.
