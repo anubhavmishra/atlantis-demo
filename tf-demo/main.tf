@@ -3,7 +3,7 @@ data "terraform_remote_state" "network" {
   backend = "s3"
 
   config {
-    bucket = "cfgmgmtcamp"
+    bucket = "atlantis-demo"
     key    = "vpc/terraform.tfstate"
     region = "us-west-2"
   }
@@ -26,8 +26,8 @@ module "ec2_instance" {
 #### Terraform Remote State Backend ######################################################
 terraform {
   backend "s3" {
-    bucket = "cfgmgmtcamp"
-    key    = "cfgmgmtcamp-demo/terraform.tfstate"
+    bucket = "atlantis-demo"
+    key    = "atlantis-demo/terraform.tfstate"
     region = "us-west-2"
   }
 }

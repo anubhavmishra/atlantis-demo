@@ -1,7 +1,7 @@
 #### Terraform Remote State Backend
 terraform {
   backend "s3" {
-    bucket = "cfgmgmtcamp"
+    bucket = "atlantis-demo"
     key    = "vpc/terraform.tfstate"
     region = "us-west-2"
   }
